@@ -164,6 +164,7 @@ struct NavController<Content>: View where Content : View {
 ## Use:
 Here is an example of how to use it.
 > *Note, due to the nature of how this view works, you will have to wrap your entire view in a normal NavigationView.*
+
 If you want to navigate back in the navigation stack while using another custom nav view, you will have to create your own navigation back button, code which I do supply. If you want to route to a page that does not have a custom nav bar, then you do not need to add anything else, the back button will be there.
 
 ```swift
