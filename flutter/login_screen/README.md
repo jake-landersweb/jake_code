@@ -9,7 +9,7 @@ This is a guide on how to make a simple compact (code-wise) log in screen in flu
 
 You will need two fields for this, a form key which controls the state of the form, and a bool to control whether to show the password text or not
 
-<pre><code>
+<pre><code>dart
 	class Login extends StatefulWidget {
 	  @override
 	  _LoginState createState() => _LoginState();
