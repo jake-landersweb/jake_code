@@ -3,7 +3,8 @@
 This is a guide on how to make a simple compact (code-wise) log in screen in flutter.
 
 ## Final Product
-[Watch Video (local link)](http://www.jakelanders.com/wp-content/uploads/2020/11/login.mp4)
+
+[video width="300" mp4="http://www.jakelanders.com/wp-content/uploads/2020/11/login.mp4"][/video]
 
 ## Create a Stateful Widget:
 
