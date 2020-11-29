@@ -2,6 +2,9 @@
 
 This is a guide on how to make a simple compact (code-wise) log in screen in flutter.
 
+### Final Product
+[Watch Video (local link)](http://www.jakelanders.com/wp-content/uploads/2020/11/login.mp4)
+
 ### Create a Stateful Widget:
 
 You will need two fields for this, a form key which controls the state of the form, and a bool to control whether to show the password text or not
@@ -171,7 +174,8 @@ You can get creative with padding and columns to get spacing-like control with t
   }
 </code></pre>
 
-
+### Source Code:
+[Github Link](https://github.com/jake-landersweb/jake_code/blob/main/flutter/login_screen/login.dart)
 
 
 
