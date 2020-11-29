@@ -4,9 +4,9 @@ This is a guide on how to make a simple compact (code-wise) log in screen in flu
 
 ## Final Product
 
- <video width="300">
+<pre><video width="300">
   <source src="http://www.jakelanders.com/wp-content/uploads/2020/11/login.mp4" type="video/mp4">
-</video> 
+</video></pre>
 
 ## Create a Stateful Widget:
 
