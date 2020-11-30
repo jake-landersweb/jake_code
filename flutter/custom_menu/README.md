@@ -1,16 +1,16 @@
 # Custom Slide Out Menu In Flutter
 
-A menu can be a great way to add an interesting design pattern into your app na dhwen done right, can extremly influence the preceieved 'polish' your app has. 
+A menu can be a great way to add an interesting design pattern into your app and when done right, can extremely influence the perceived 'polish' your app has. 
 
-Slide out menus are not always the best option for navigation, but it is extremly versitile and you will most definitely come across a time when you will need to use one.
+Slide out menus are not always the best option for navigation, but it is extremely versatile and you will most definitely come across a time when you will need to use one.
 
-> Note: Apple reccomends using a bottom nav bar for 5 or less items.
+> Note: Apple recommends using a bottom nav bar for 5 or less items.
 
 ## Finished Product:
 
 [Video on my website](http://www.jakelanders.com/wp-content/uploads/2020/11/custom_menu.mp4)
 
-In order to create a beutiful slide out menu that will work equally well on Android and iOS, you need three things:
+In order to create a beautiful slide out menu that will work equally well on Android and iOS, you need three things:
 
 1. A class to contain the menu.
 2. A class to host the menu.
@@ -113,7 +113,7 @@ class _CustomMenuState extends State<CustomMenu> {
 }
 ```
 
-You will also need access to the Menu class through provider, so add that to your main() methon in main.dart
+You will also need access to the Menu class through provider, so add that to your main() method in main.dart
 *example*
 
 ```dart
@@ -544,7 +544,7 @@ Lastly, we need to configure the open and close methods in the parent class!
   }
 ```
 
-And there it is! I hope you enjoyed this tutorial and learned soemthing! If you have any questions, feel free to drop a comment or send me an email.
+And there it is! I hope you enjoyed this tutorial and learned something! If you have any questions, feel free to drop a comment or send me an email.
 
 ## Source Code:
 
