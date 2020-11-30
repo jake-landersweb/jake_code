@@ -114,7 +114,7 @@ class _CustomMenuState extends State<CustomMenu> {
               if (_menu._isOpen) {
                 // if the menu is being dragged left but not past the screen edge
                 if ((value.localPosition.dx - _menu._dragStart) < 0 &&
-                    (value.localPosition.dx - _menu._dragStart) <=
+                    (value.localPosition.dx - _menu._dragStart) >=
                         -_size.width / 3) {
                   // set the offset to follow the users finger
                   setState(() {
