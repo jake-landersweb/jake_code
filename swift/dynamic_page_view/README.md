@@ -1,6 +1,6 @@
 # Dynamic Page Controller
 
-One of the issues I have faced with Apple's new implementation of teh PageTabViewStyle() style for TabView has been its relative inability to handle dynamic data.
+One of the issues I have faced with Apple's new implementation of the PageTabViewStyle() style for TabView has been its relative inability to handle dynamic data.
 
 In my experience, I have observed a weird stutter when trying to put a ForEach loop inside a view controller like this:
 
@@ -50,7 +50,7 @@ Finally, lets get into the code.
 
 ### Create a view builder
 
-First, you need to create a view builder to allow for view compisition between {}
+First, you need to create a view builder to allow for view composition between {}
 
 In addition, we will also need a couple parameters:
 1. a view count Int
@@ -83,7 +83,7 @@ struct PageView<Content>: View where Content : View {
 
 Now, we need to create the actual view the content will be hosted in.
 
-Also, there are a few parameters that are going to be needed for handling swiping between pages, so we will intialize those here.
+Also, there are a few parameters that are going to be needed for handling swiping between pages, so we will initialize those here.
 
 ```swift
 // for controlling swipe animation and offset
@@ -107,13 +107,13 @@ var body: some View {
 ```
 
 As you can see here the code has a few interesting things.
-1. The view is wrapped in a GeometryReader, because the view width is going to be the screen width * the view count. The geometry reader lets us elagently handle that.
+1. The view is wrapped in a GeometryReader, because the view width is going to be the screen width * the view count. The geometry reader lets us elegantly handle that.
 2. The view has a ZStack. This allows for the indicator to show on top of all content
-3. The content is arranged in an HStack. Because this view is meant to be used in tandum with a ForEach, this will work nicely for us.
+3. The content is arranged in an HStack. Because this view is meant to be used in tandem with a ForEach, this will work nicely for us.
 
 ### Swipe Functionality
 
-Because of the nature of this view, we will have to create our own swipe to move to the next page functionality. This is tricky, but certanly do-able. The code is a bit lengthy, but try and read through it with the comments I have made and it will all start to make sense.
+Because of the nature of this view, we will have to create our own swipe to move to the next page functionality. This is tricky, but certainly do-able. The code is a bit lengthy, but try and read through it with the comments I have made and it will all start to make sense.
 
 This view functionality is as follows:
 - Swiping between pages
@@ -188,11 +188,11 @@ content()
     )
 ```
 
-This will get you a good ammount of the way there. But, there still are a few more things to take care of.
+This will get you a good amount of the way there. But, there still are a few more things to take care of.
 
 ### Adding an indicator
 
-First, we need to sepcify the HStack's frame and offset to allow for the indicator to sit properly on the screen.
+First, we need to specify the HStack's frame and offset to allow for the indicator to sit properly on the screen.
 
 ```swift
 HStack(spacing: 0) {
@@ -223,7 +223,7 @@ var custom_view_counter: some View {
 }
 ```
 
-Finally, add those indicators ONLY when the view count is greater than one. That is one thing I wanted to pay attention when creating this view, is it should still feel like a normal view when the ammount of views is 1.
+Finally, add those indicators ONLY when the view count is greater than one. That is one thing I wanted to pay attention when creating this view, is it should still feel like a normal view when the amount of views is 1.
 
 ```swift
 if viewCount > 1 {
@@ -258,36 +258,3 @@ And thats all!
 ### Source Code
 
 [Github Link](https://github.com/jake-landersweb/jake_code/blob/main/swift/dynamic_page_view/DynamicPageView.swift)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
