@@ -257,7 +257,7 @@ And thats all!
 
 ### Source Code
 
-[Github Link](https://github.com/jake-landersweb/jake_code/blob/main/swift/custom_page_view/DynamicPageView.swift)
+[Github Link](https://github.com/jake-landersweb/jake_code/blob/main/swift/dynamic_page_view/DynamicPageView.swift)
 
 
 
