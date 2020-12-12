@@ -1,6 +1,6 @@
 # Selector In Flutter
 
-This is a fun little custom widget that I built that I thought I'd share. It takes a list of items and potrays them as cells you can tap on to select whatever content is in the cells. It will add your selections into another list that you are able to read from.
+This is a fun little custom widget that I built that I thought I'd share. It takes a list of items and portrays them as cells you can tap on to select whatever content is in the cells. It will add your selections into another list that you are able to read from.
 
 ### End Result:
 
@@ -131,7 +131,7 @@ return FlatButton(
 }
 ```
 
-Lastly, we can use this cell in our list. The listView.builder creates a builder funtion that gives us the current index of whatever cell is being rendered, so we can use that to fill our content.
+Lastly, we can use this cell in our list. The listView.builder creates a builder function that gives us the current index of whatever cell is being rendered, so we can use that to fill our content.
 
 ```dart
 itemBuilder: (context, index) {
