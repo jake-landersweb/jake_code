@@ -1,4 +1,4 @@
-# Custom ForEach swipes in SWiftUI
+# Custom ForEach swipes in SwiftUI
 
 The built in lists are great, and allow for a wide range of useful built in features that have already been [explored](http://www.jakelanders.com/swiftui/swiftui-lists/) on this website.
 
