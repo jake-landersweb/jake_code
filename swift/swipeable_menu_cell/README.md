@@ -2,7 +2,7 @@
 
 The built in lists are great, and allow for a wide range of useful built in features that have already been [explored](http://www.jakelanders.com/swiftui/swiftui-lists/) on this website.
 
-But sometimes, you may want a little more from the lists. Maybe mulitple actions when you slide a list cell over?
+But sometimes, you may want a little more from the lists. Maybe multiple actions when you slide a list cell over?
 
 ### Finished Product:
 
@@ -90,7 +90,7 @@ struct CustomListSwipe: View {
 
 This is a very basic view that allows you to add views to a list, and has a very modern looking UI. Lets make it better.
 
-I have created a custom swipeable list cell as a view builder that allows for adding menu items to a cell. It requires no gesture configuriation from the user, and allows for a dynamic amount of menu items.
+I have created a custom swipeable list cell as a view builder that allows for adding menu items to a cell. It requires no gesture configuration from the user, and allows for a dynamic amount of menu items.
 
 The view takes the following parameters:
 1. **[REQUIRED]** <u>actions</u>: an array of actions you want the menu to perform. This array is sorted from right to left, which means the first item in the array corresponds to the rightmost menu item
