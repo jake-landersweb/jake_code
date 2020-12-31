@@ -1,6 +1,6 @@
 # Custom List Background
 
-SwiftUI currently has no way for a user to change the background in a list. This can become a problem when designing an app that has a colorscheme to preserve. But with just a little code, a view modifier, and some UIKit, we can overcome this shortcoming. 
+SwiftUI currently has no way for a user to change the background in a list. This can become a problem when designing an app that has a color scheme to preserve. But with just a little code, a view modifier, and some UIKit, we can overcome this shortcoming. 
 
 Here is an example of the final product in use:
 
@@ -41,7 +41,7 @@ First, we need to define a view modifier. This is a more simple implementation o
 
 This view modifier needs four parameters:
 1. (REQUIRED) the number of items the entire list contains
-2. (REQUIRED) the index of the sepcific cell
+2. (REQUIRED) the index of the specific cell
 3. (optional) the background of the cell, defaults to white
 4. (optional) the corner radius of the cell, defaults to 10
 
