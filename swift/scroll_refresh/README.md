@@ -149,4 +149,4 @@ struct ViewOffsetKey: PreferenceKey {
 
 ## Source
 
-[Github Link](https://github.com/jake-landersweb/jake_code/tree/main/swift/scrol_refresh/PullToRefresh.swift)
+[Github Link](https://github.com/jake-landersweb/jake_code/blob/main/swift/scroll_refresh/PullToRefresh.swift)
