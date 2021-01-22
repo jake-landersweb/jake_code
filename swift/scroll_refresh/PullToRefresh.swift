@@ -75,12 +75,20 @@ struct ScrollActionView<Content>: View where Content : View {
                 if value > 30 {
                     arrowAngle = Double((value - 30) * 1.7)
                 }
+                // indicate the user has pulled all the way
+                if arrowAngle > 180 {
+                    withAnimation { hasPulled = true }
+                }
                 // start the loading when the user releases the screen
                 if arrowAngle < 180 && hasPulled {
                     // keep show loading indicator
                     // spring animation is very important
                     withAnimation(.spring()) { isLoading = true }
                     hasPulled = false
+                }
+                // complete the action supplied
+                if value == 0 {
+                    action()
                 }
             }
         }
