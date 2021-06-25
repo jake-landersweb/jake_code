@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+class CryptoData: Decodable, Identifiable {
+    let priceUsd: String
+    let time: Int
+    let circulatingSupply: String
+    let date: String
+}
+
+class CryptoResponse: Decodable {
+    let data: [CryptoData]
+    let timestamp: Int
+}
