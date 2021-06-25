@@ -11,6 +11,8 @@
 		A6F36E5E268654DA0043C3F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F36E5D268654DA0043C3F8 /* ContentView.swift */; };
 		A6F36E60268654DB0043C3F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F36E5F268654DB0043C3F8 /* Assets.xcassets */; };
 		A6F36E63268654DB0043C3F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F36E62268654DB0043C3F8 /* Preview Assets.xcassets */; };
+		A6F36E6A2686560A0043C3F8 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F36E692686560A0043C3F8 /* Client.swift */; };
+		A6F36E6C268656450043C3F8 /* CryptoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F36E6B268656450043C3F8 /* CryptoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A6F36E5D268654DA0043C3F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A6F36E5F268654DB0043C3F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6F36E62268654DB0043C3F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6F36E692686560A0043C3F8 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		A6F36E6B268656450043C3F8 /* CryptoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				A6F36E5D268654DA0043C3F8 /* ContentView.swift */,
 				A6F36E5F268654DB0043C3F8 /* Assets.xcassets */,
 				A6F36E61268654DB0043C3F8 /* Preview Content */,
+				A6F36E692686560A0043C3F8 /* Client.swift */,
+				A6F36E6B268656450043C3F8 /* CryptoData.swift */,
 			);
 			path = plotCrypto;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6F36E6A2686560A0043C3F8 /* Client.swift in Sources */,
 				A6F36E5E268654DA0043C3F8 /* ContentView.swift in Sources */,
+				A6F36E6C268656450043C3F8 /* CryptoData.swift in Sources */,
 				A6F36E5C268654DA0043C3F8 /* plotCryptoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +285,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +315,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

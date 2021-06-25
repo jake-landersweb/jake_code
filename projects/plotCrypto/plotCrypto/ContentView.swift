@@ -8,9 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var client = Client()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(client.btcData) { item in
+                VStack(alignment: .leading) {
+                    Text("\(_convertToDouble(item.priceUsd))")
+                        .font(.headline)
+                    Text(item.date)
+                        .foregroundColor(.secondary)
+                }
+            }
+            .navigationTitle("BTC Price")
+            .refreshable {
+                client.btcData = await client.fetchData(url: client.btcUrl)
+            }
+        }
+    }
+    
+    private func _convertToDouble(_ input: String) -> Double {
+        return Double(input) ?? 0.0
     }
 }
 
