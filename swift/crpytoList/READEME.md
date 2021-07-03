@@ -120,4 +120,4 @@ And thats it! You are now free to conquer the world with this btc data.
 
 ---
 
-[Source Code](https://github.com/jake-landersweb/jake_code/tree/main/swift/cryptoList/CryptoList.swift)
+[Source Code](https://github.com/jake-landersweb/jake_code/blob/main/swift/crpytoList/CryptoList.swift)
