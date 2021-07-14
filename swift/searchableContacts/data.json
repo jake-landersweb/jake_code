@@ -1,0 +1,181 @@
+{
+    "status": 200,
+    "message": "Successfully fetched contacts.",
+    "body": [
+        {
+          "first": "Belinda",
+          "last": "Oconnor",
+          "phone": "(905) 437-2764",
+          "email": "belindaoconnor@vurbo.com"
+        },
+        {
+          "first": "Mckenzie",
+          "last": "Rios",
+          "phone": "(977) 533-2407",
+          "email": "mckenzierios@vurbo.com"
+        },
+        {
+          "first": "Yang",
+          "last": "Dickerson",
+          "phone": "(850) 524-3797",
+          "email": "yangdickerson@vurbo.com"
+        },
+        {
+          "first": "Riggs",
+          "last": "Alvarado",
+          "phone": "(897) 500-3104",
+          "email": "riggsalvarado@vurbo.com"
+        },
+        {
+          "first": "Tucker",
+          "last": "Turner",
+          "phone": "(998) 536-2157",
+          "email": "tuckerturner@vurbo.com"
+        },
+        {
+          "first": "Randi",
+          "last": "Richards",
+          "phone": "(899) 545-3241",
+          "email": "randirichards@vurbo.com"
+        },
+        {
+          "first": "Peck",
+          "last": "Phelps",
+          "phone": "(964) 449-3398",
+          "email": "peckphelps@vurbo.com"
+        },
+        {
+          "first": "Eugenia",
+          "last": "Randolph",
+          "phone": "(979) 600-3437",
+          "email": "eugeniarandolph@vurbo.com"
+        },
+        {
+          "first": "Rebekah",
+          "last": "Hutchinson",
+          "phone": "(862) 583-3220",
+          "email": "rebekahhutchinson@vurbo.com"
+        },
+        {
+          "first": "Ashley",
+          "last": "Reed",
+          "phone": "(972) 450-2099",
+          "email": "ashleyreed@vurbo.com"
+        },
+        {
+          "first": "Head",
+          "last": "Marquez",
+          "phone": "(868) 570-2279",
+          "email": "headmarquez@vurbo.com"
+        },
+        {
+          "first": "Eaton",
+          "last": "Combs",
+          "phone": "(930) 527-3991",
+          "email": "eatoncombs@vurbo.com"
+        },
+        {
+          "first": "Baker",
+          "last": "Doyle",
+          "phone": "(949) 420-3264",
+          "email": "bakerdoyle@vurbo.com"
+        },
+        {
+          "first": "Workman",
+          "last": "Hardin",
+          "phone": "(986) 528-2787",
+          "email": "workmanhardin@vurbo.com"
+        },
+        {
+          "first": "Annmarie",
+          "last": "Huff",
+          "phone": "(847) 439-3162",
+          "email": "annmariehuff@vurbo.com"
+        },
+        {
+          "first": "Mara",
+          "last": "Farrell",
+          "phone": "(970) 467-2422",
+          "email": "marafarrell@vurbo.com"
+        },
+        {
+          "first": "Alfreda",
+          "last": "Benton",
+          "phone": "(996) 494-3672",
+          "email": "alfredabenton@vurbo.com"
+        },
+        {
+          "first": "Lynn",
+          "last": "Hull",
+          "phone": "(825) 518-3844",
+          "email": "lynnhull@vurbo.com"
+        },
+        {
+          "first": "Alisha",
+          "last": "Estes",
+          "phone": "(947) 439-3802",
+          "email": "alishaestes@vurbo.com"
+        },
+        {
+          "first": "Ronda",
+          "last": "Stein",
+          "phone": "(969) 587-2937",
+          "email": "rondastein@vurbo.com"
+        },
+        {
+          "first": "Marianne",
+          "last": "Wheeler",
+          "phone": "(952) 441-2217",
+          "email": "mariannewheeler@vurbo.com"
+        },
+        {
+          "first": "Deanne",
+          "last": "Meadows",
+          "phone": "(937) 578-2716",
+          "email": "deannemeadows@vurbo.com"
+        },
+        {
+          "first": "Jimmie",
+          "last": "Trevino",
+          "phone": "(829) 484-3015",
+          "email": "jimmietrevino@vurbo.com"
+        },
+        {
+          "first": "Stacy",
+          "last": "Castillo",
+          "phone": "(804) 570-3101",
+          "email": "stacycastillo@vurbo.com"
+        },
+        {
+          "first": "Coleman",
+          "last": "Carlson",
+          "phone": "(803) 464-2298",
+          "email": "colemancarlson@vurbo.com"
+        },
+        {
+          "first": "Vilma",
+          "last": "Kim",
+          "phone": "(866) 555-2462",
+          "email": "vilmakim@vurbo.com"
+        },
+        {
+          "first": "Walton",
+          "last": "Howe",
+          "phone": "(855) 560-3992",
+          "email": "waltonhowe@vurbo.com"
+        },
+        {
+          "first": "Juliet",
+          "last": "Young",
+          "phone": "(942) 522-2879",
+          "email": "julietyoung@vurbo.com"
+        },
+        {
+          "first": "Jennings",
+          "last": "Salas",
+          "phone": "(933) 485-3238",
+          "email": "jenningssalas@vurbo.com"
+        }
+      ]
+}
+
