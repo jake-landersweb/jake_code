@@ -62,9 +62,9 @@ class _RefreshableState extends State<Refreshable> {
         // if fully scrolled down, let the view know it can
         // load when the user releases the screen
         if (_loadAmount >= 1) {
-          setState(() {
-            _canLoad = true;
-          });
+          _canLoad = true;
+        } else {
+          _canLoad = false;
         }
       }
     });
@@ -91,7 +91,8 @@ class _RefreshableState extends State<Refreshable> {
               // may be better way to detect, but this works well
               // does NOT detect if still scrolling, only if user
               // physically has finger on the screen
-              if (!notification.toString().contains("DragUpdateDetails")) {
+              if (!notification.toString().contains("DragUpdateDetails") &&
+                  !notification.toString().contains("direction")) {
                 // user released the screen, animate the position change
                 if (_scrollAmount == 0 && _canLoad) {
                   // set the padding to be any value you want
@@ -170,7 +171,7 @@ class _RefreshableState extends State<Refreshable> {
                     (Platform.isIOS ? 0 : 10)),
             child: Align(
               alignment: Alignment.topCenter,
-              child: _canLoad && _scrollAmount != 0
+              child: _scrollAmount != 0
                   ? const CircularProgressIndicator()
                   : CircularProgressIndicator(
                       value: _loadAmount,
