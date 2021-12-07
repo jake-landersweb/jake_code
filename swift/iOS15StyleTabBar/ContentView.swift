@@ -60,9 +60,6 @@ struct iOS15TabBar: View {
         }
         self.content = content().getViews
         self.tabItems = tabItems
-//        if self.content.count != self.tabItems.count {
-//            fatalError("!!! View count needs to equal tab item count !!!")
-//        }
     }
     
     @State private var currentIndex: Int = 0
