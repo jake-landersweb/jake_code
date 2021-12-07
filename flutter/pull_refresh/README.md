@@ -235,6 +235,10 @@ Padding(
 ),
 ```
 
+## Notes
+
+There was an issue where scrolling upwards after completed scroll would not provide the desired effect, it has been fixed in the code on github. It uses an extra check in the notification observer and changes the condition for showing the continuous loading indicator vs the deterministic one.
+
 ## Source Code
 
 As always, taking a look at the full code will help immensely.
