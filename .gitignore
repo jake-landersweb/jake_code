@@ -7,3 +7,5 @@ website_project/
 tests/
 video/
 projects/
+flutter_proj/
+*.DS_STORE
