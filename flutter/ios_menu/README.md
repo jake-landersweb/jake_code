@@ -371,7 +371,7 @@ class _MenuButtonState extends State<MenuButton> {
 }
 ```
 
-### MBasic Page
+### Basic Page
 ```dart
 class BasicPage extends StatelessWidget {
   const BasicPage({
