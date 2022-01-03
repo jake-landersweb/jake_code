@@ -21,5 +21,5 @@ Both projects will use apple.png and google.png, but because SwiftUI does not su
 
 ## Setup
 
-Set up on both platforms is fairly similar, but there are some key differences. SwiftUI uses the <mark>View</mark> protocol, and Flutter uses <mark>Stateful</mark> widgets.
+Set up on both platforms is fairly similar, but there are some key differences. SwiftUI uses the <code>View</code> protocol, and Flutter uses <code>Stateful</code> widgets.
 
