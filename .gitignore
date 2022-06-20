@@ -9,3 +9,4 @@ video/
 projects/
 flutter_proj/
 *.DS_STORE
+temp/
